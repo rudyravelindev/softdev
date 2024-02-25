@@ -3,20 +3,27 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.main-section{
+    background-color: #413C58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #hero-img{
     margin: 50px;
     padding: 40px;
 }
 #hero-img img{
-    width: 90px;
+    width: 120px;
     height: auto;
     border-radius: 10px;
 }
 
 .first-section{
     display: flex;
-    background-color: #413C58;
+    
     color: white;
+    
 }
 
 .nav{
@@ -28,4 +35,18 @@
     align-items: center;
     justify-content: space-around;
     margin: 60px;
+    font-size: 24px;
+}
+.container{
+    background-color: #413C58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-1 img{
+    width: 700px;
+    height: auto;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 80px;
 }
